@@ -12,12 +12,12 @@ loginbutton = driver.find_element(By.XPATH,'//*[@id="__next"]/div[1]/div[2]/div[
 loginbutton.click()
 time.sleep(5)
 email = driver.find_element(By.XPATH,'//*[@id="username"]') #Entering username or email
-email.send_keys("vivektyagi19829@gmail.com")
+email.send_keys("")
 submit = driver.find_element(By.XPATH,'/html/body/div/main/section/div/div/div/div[1]/div/form/div[2]/button')
 submit.click()
 time.sleep(4)
 password = driver.find_element(By.XPATH,'//*[@id="password"]') #Entering Password
-password.send_keys("hihello25hihello25")
+password.send_keys("")
 submit2 = driver.find_element(By.XPATH,'/html/body/div[1]/main/section/div/div/div/form/div[2]/button')
 submit2.click()
 time.sleep(5)
